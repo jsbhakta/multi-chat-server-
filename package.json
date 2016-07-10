@@ -1,0 +1,22 @@
+{
+  "name": "multi-chat-server",
+  "version": "1.0.0",
+  "description": "multi chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+	"start": "node index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://git.heroku.com/multi-chat-server.git"
+  },
+  "author": "J Bhakta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "ws": "^1.1.1"
+  }
+}
